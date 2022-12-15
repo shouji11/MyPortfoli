@@ -12,7 +12,7 @@ const pushBtn = (btn,src) => {
   
     }
 }
-pushBtn("bimg_1","Movie/mati.mp4")
-pushBtn("bimg_2","Movie/rain.mp4")
-pushBtn("bimg_3","Movie/mati.mp4")
+pushBtn("bimg_1","mati.mp4")
+pushBtn("bimg_2","rain.mp4")
+pushBtn("bimg_3","mati.mp4")
 
