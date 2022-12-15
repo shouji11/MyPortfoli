@@ -1,0 +1,15 @@
+
+.moon{
+    position: relative;
+    transform: translate(540px,-380px);/*　位置　*/
+
+    /* 月 */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background:linear-gradient(30deg,rgb(194, 237, 0),rgb(41, 50, 0) );
+
+    outline:rgb(91, 111, 0) solid 1px;
+    
+    z-index: 2;
+}

@@ -1,0 +1,94 @@
+
+.deley_time2{
+  animation-delay: 0.1s;
+}
+.deley_time3{
+  animation-delay: 0.2s;
+}
+.deley_time4{
+  animation-delay: 0.3s;
+}
+.deley_time5{
+  animation-delay: 0.4s;
+}
+.deley_time6{
+  animation-delay: 0.5s;
+}.deley_time7{
+  animation-delay: 0.6s;
+}.deley_time8{
+  animation-delay: 0.7s;
+}
+
+
+.fadeTrigger{
+  opacity: 0;
+}
+
+.fadein{
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+}
+@keyframes fadeInAnime{
+    0% {opacity: 0;}  
+    100% {opacity: 1;}
+}
+
+
+
+.fadeLeft{
+  animation-name: fadeLeftAnime;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeLeftAnime{
+  from {
+    opacity: 0;
+	transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+	transform: translateX(0);
+  }
+
+}
+
+.fadeUp{
+  animation-name:fadeUpAnime;
+  animation-duration:0.9s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+
+@keyframes fadeUpAnime{
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+ 
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeScale{
+  animation-name: fadeScaleAnime;
+  transform: scale(0,0);
+  
+  animation-delay: 0.5s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeScaleAnime{
+    0% {transform: scale(0,0);}  
+    100% {transform: scale(1,1);}
+}
+
+
+
