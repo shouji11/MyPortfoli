@@ -6,13 +6,14 @@ $('#header a[href*="#"]').click(function () {
   return false;
 });
 
-const pushBtn = (btn,src) => {
+const pushBtn = (btn,src,txt) => {
     document.getElementById(btn).onclick = function(){
       document.getElementById("video").src = src;      
+      document.getElementById("title").innerHTML = txt;      
   
     }
 }
-pushBtn("bimg_1","mati.mp4")
-pushBtn("bimg_2","rain.mp4")
-pushBtn("bimg_3","mati.mp4")
+pushBtn("bimg_1","mati.mp4","街")
+pushBtn("bimg_2","rain.mp4","rain")
+pushBtn("bimg_3","mati.mp4","街")
 
