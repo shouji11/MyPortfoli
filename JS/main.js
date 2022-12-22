@@ -1,35 +1,3 @@
-
-////クリックした時のスクロール
-$('#header a[href*="#"]').click(function () {
-  var elmHash = $(this).attr('href'); //ページ内リンクのHTMLタグhrefから、リンクされているエリアidの値を取得
-  var pos = $(elmHash).offset().top;  //idの上部の距離を取得
-  $('body,html').animate({scrollTop: pos}, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
-  return false;
-});
-$('#footer').click(function () {	
-	$('body,html').animate(
-		{scrollTop: 0}, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
-	return false;
-});
-
-////スクロールした際のフェード
-function fadeAnime(){
-  $(".fadeTrigger").each(function(){
-    var elemPos = $(this).offset().top-50;//要素より、50px上の
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    if (scroll >= elemPos - windowHeight){
-    $(this).addClass('fadeUp');// 画面内に入ったらfadeInというクラス名を追記
-    }else{
-    $(this).removeClass('fadeUp');// 画面外に出たらfadeInというクラス名を外す
-    }  
-  });
-}
-
-$(window).scroll(function (){
-  fadeAnime();/* アニメーション用の関数を呼ぶ*/
-});
-
 //// 星アニメーション
 particlesJS("particles-js", {
 	"particles":{
@@ -101,3 +69,34 @@ particlesJS("particles-js", {
 	},
 	"retina_detect":true
 });
+////クリックした時のスクロール
+$('#header a[href*="#"]').click(function () {
+  var elmHash = $(this).attr('href'); //ページ内リンクのHTMLタグhrefから、リンクされているエリアidの値を取得
+  var pos = $(elmHash).offset().top;  //idの上部の距離を取得
+  $('body,html').animate({scrollTop: pos}, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
+  return false;
+});
+$('#footer').click(function () {	
+	$('body,html').animate(
+		{scrollTop: 0}, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
+	return false;
+});
+
+////スクロールした際のフェード
+function fadeAnime(){
+  $(".fadeTrigger").each(function(){
+    var elemPos = $(this).offset().top-50;//要素より、50px上の
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight){
+    $(this).addClass('fadeUp');// 画面内に入ったらfadeInというクラス名を追記
+    }else{
+    $(this).removeClass('fadeUp');// 画面外に出たらfadeInというクラス名を外す
+    }  
+  });
+}
+
+$(window).scroll(function (){
+  fadeAnime();/* アニメーション用の関数を呼ぶ*/
+});
+
