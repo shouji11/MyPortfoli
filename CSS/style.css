@@ -94,11 +94,11 @@ h1{
 #profile li{
     list-style: none;
 }
-#profile Img{
+.skills_Img{
     height: 120px;
     width: 200px;
 }
-.profileImg{
+.profile_Img{
     height: 120px;
     width: 120px;
     background-color: yellow;
