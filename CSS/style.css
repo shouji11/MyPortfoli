@@ -94,7 +94,11 @@ h1{
 #profile li{
     list-style: none;
 }
-#profile img{
+#profile Img{
+    height: 120px;
+    width: 200px;
+}
+.profileImg{
     height: 120px;
     width: 120px;
     background-color: yellow;
