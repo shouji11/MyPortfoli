@@ -30,7 +30,7 @@
 }
 
 .bodybg1{
-    margin: -6px;
+    margin: 0;
     height: 400px;
     width: 110%;
     background:linear-gradient(0deg,rgb(0, 87, 218),rgb(0, 51, 129),rgb(0, 3, 7));
@@ -62,6 +62,7 @@ body{
     background-color: black;
     color:aliceblue;
     height: auto;
+    margin: 0;
     z-index: 0;
 }
 h1{
@@ -89,7 +90,7 @@ h1{
 #profile {
     width: auto;
     height: 600px;
-    padding: 1em;
+    padding: 5px;
 }
 #profile li{
     list-style: none;
@@ -129,7 +130,7 @@ ul{
 li {
     width: 30%;
     list-style: none;    
-    padding: 5px;
+    padding: 8px;
 }
 
 .contents img{
