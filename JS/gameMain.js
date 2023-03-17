@@ -33,12 +33,12 @@ const pushBtn = (btn,src,genre,tool,period) => {
     }
 }
   
-pushBtn("img_1","Img/ScreenShot/2DFighting.PNG","2D格闘","Unity","4ヶ月(内 3ヶ月)","")
-pushBtn("img_2","Img/ScreenShot/game4/sundglass_Title.png","2Dアクション","Unity","3ヶ月(内 2ヶ月)")
-pushBtn("img_3","Img/ScreenShot/game1/TankShooting1.png","3Dシューティング","DirectX12","3ヶ月(内 2ヶ月)")
-pushBtn("img_4","Img/ScreenShot/game2/title.PNG","アクション","MonoGame","3ヶ月(内 2ヶ月)")
-pushBtn("img_5","Img/ScreenShot/game3/title.PNG","回避アクション","MonoGame","1ヶ月")
-pushBtn("img_6","Img/ScreenShot/actiongame.PNG","2Dアクション","Unity","3ヶ月(内 2ヶ月)")
-pushBtn("img_7","Img/ScreenShot/shooting.PNG","シューティング","Unity","3ヶ月(内 2ヶ月)")
-pushBtn("img_8","Img/ScreenShot/game5/oikake.PNG","追いかけ","MonoGame","約2～3週間")
+pushBtn("img_1","Img/ScreenShot/2DFighting.jpg","2D格闘","Unity","4ヶ月(内 3ヶ月)","")
+pushBtn("img_2","Img/ScreenShot/game4/sundglass_Title.jpg","2Dアクション","Unity","3ヶ月(内 2ヶ月)")
+pushBtn("img_3","Img/ScreenShot/game1/TankShooting1.jpg","3Dシューティング","DirectX12","3ヶ月(内 2ヶ月)")
+pushBtn("img_4","Img/ScreenShot/game2/title.jpg","アクション","MonoGame","3ヶ月(内 2ヶ月)")
+pushBtn("img_5","Img/ScreenShot/game3/title.jpg","回避アクション","MonoGame","1ヶ月")
+pushBtn("img_6","Img/ScreenShot/actiongame.jpg","2Dアクション","Unity","3ヶ月(内 2ヶ月)")
+pushBtn("img_7","Img/ScreenShot/shooting.jpg","シューティング","Unity","3ヶ月(内 2ヶ月)")
+pushBtn("img_8","Img/ScreenShot/game5/oikake.jpg","追いかけ","MonoGame","約2～3週間")
 
