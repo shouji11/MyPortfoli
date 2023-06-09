@@ -1,27 +1,20 @@
 
-$(function(){
-  var load =$("#loadIcon_wrap");
+// $(function(){
+//   var load =$("#loadIcon_wrap");
   
-  $(".loadButton").click(function(){
-    load.show();
+//   $(".loadButton").click(function(){
+//     load.show();
   
-    //loaded();
+//     //loaded();
 
-    // //ページの読み込みが完了してなくても3秒後にアニメーションを非表示にする
-    $("#loading").delay(3000).fadeOut(300);
-    $("#contents").delay(4000).fadeIn(600);
+//     // //ページの読み込みが完了してなくても3秒後にアニメーションを非表示にする
+//     $("#loading").delay(3000).fadeOut(300);
+//     $("#contents").delay(4000).fadeIn(600);
 
-  });
+//   });
 
-});
-
-// $(window).on("load",function() {
-//   if(isLoading){
-//     $("#loading").delay(600).fadeOut(300);
-//     $("#contents").delay(800).fadeIn(600);
- 
-//   }
 // });
+
 
 const pushBtn = (btn,src,genre,tool,period) => {
     document.getElementById(btn).onclick = function(){
