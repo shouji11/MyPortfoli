@@ -13,7 +13,7 @@ const pushBtn = (btn,src,txt) => {
   
     }
 }
-pushBtn("bimg_1","mati.mp4","街")
-pushBtn("bimg_2","rain.mp4","rain")
-pushBtn("bimg_3","synthwave.mp4","80`s_synthwave")
+pushBtn("bimg_1","../mati.mp4","街")
+pushBtn("bimg_2","../rain.mp4","rain")
+pushBtn("bimg_3","../synthwave.mp4","80`s_synthwave")
 

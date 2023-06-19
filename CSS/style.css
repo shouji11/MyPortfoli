@@ -13,7 +13,7 @@
     position: relative;
     height: 200px;
     text-align: center;
-    padding: 1em;
+    margin-bottom: 250px;
 }
 .text_font{
     font-family: 'Noto Sans JP', sans-serif;
@@ -23,13 +23,11 @@
 /*     header     */
 #header{
     display: flex;
-}
-#header a{
-    transform:translate(0,320px);
-    cursor: pointer;
+    
 }
 
 .bodybg1{
+    position: relative;
     margin: 0;
     height: 400px;
     width: 110%;
@@ -37,9 +35,38 @@
     z-index: 1;
     overflow:hidden;
 }
+
+.header_in{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 90%;
+    z-index: 1;
+}
+.header_menu{   
+    font-style: oblique;
+}
+
+.header_menu li{
+    width: 10%;
+    
+}
+.header_menu a{
+    font-size: 20px;
+    color:rgb(250, 58, 58)
+}
+.header_menu a:hover{
+    color: rgb(250, 167, 24);
+}
+
+
 img.cat1{
-    position: relative;
-    transform:translate(0,20px);
+    position: absolute;
+    transform:translate(0,320px);
     height: 100px;
     width: 80px;
     z-index: 1;
@@ -65,6 +92,9 @@ body{
     margin: 0;
     z-index: 0;
 }
+main {
+    margin: 0 30px;
+}
 h1{
     color: white;    
     font-size:xx-large;
@@ -79,7 +109,6 @@ h1{
     background-color: darkgray;
 }
 ::-webkit-scrollbar-thumb{
-
     border-radius: 20px;
     box-shadow: inset 3px -3px 5px rgba(0,0,0,0.2);
     background:linear-gradient(50deg,rgb(0, 87, 218),rgb(0, 51, 129));
@@ -89,15 +118,11 @@ h1{
 /*　　　プロフィール　　　　*/
 #profile {
     width: auto;
-    height: 600px;
+    height: 500px;
     padding: 5px;
 }
 #profile li{
     list-style: none;
-}
-.skills_Img{
-    height: 100px;
-    width: 200px;
 }
 .profile_Img{
     height: 120px;
@@ -105,35 +130,58 @@ h1{
     background-color: yellow;
 }
 
+/* skills */
 
-/*     ContentsGallery    */
+#skills{
+    padding: 5px;
+    height: auto;
+}
+.skills_Img{
+    height: 100px;
+    width: 200px;
+}
+.skill_List{
+    width: 50%;
+    padding-left: 0px;   
+    margin: 16px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
-#gallery{
+}
+.skill_List li{
+    /* width: 50%; */
+    /* display: flex; */
+    list-style: none;    
+    /* flex-wrap: wrap; */
+    padding: 8px 10px;
+    
+}
+
+/*     worksLink    */
+
+#worksLink{
     height: 600px;
     width: auto;
-    justify-content: space-between;
+    margin-bottom: 0;
 }
 h2{
     color: white;
 }
-
 .contents{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 ul{
     display: flex;
     padding-left: 0px;
 }
-li {
-    
+li {    
     width: 30%;
     list-style: none;    
     padding: 8px;
 }
-
 .content_wrap{
     position: relative;
     overflow: hidden;
@@ -171,7 +219,7 @@ li {
 
 /*    footer      */
 footer{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .bodybg2{
     height: 100px;

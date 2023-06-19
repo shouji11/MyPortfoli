@@ -1,7 +1,9 @@
 
 .moon{
-    position: relative;
-    transform: translate(540px,-380px);/*　位置　*/
+    position: absolute;
+    transform: translate(500px,0);/*　位置　*/
+    top: 0;
+    left: 0;
 
     /* 月 */
     width: 100px;

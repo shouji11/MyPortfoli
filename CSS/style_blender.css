@@ -106,7 +106,6 @@ h4:hover{
     max-width: 30%;
     width: auto;
     height: 100%;
-    cursor: pointer;
     list-style: none;
 }
 
@@ -118,7 +117,8 @@ h4:hover{
     height: auto;
     padding: 0;
     margin: 0;
-
+    cursor: pointer;
+    
     text-align: center;
     filter: grayscale(1);
     transition-duration: 0.3s;
